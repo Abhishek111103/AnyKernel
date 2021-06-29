@@ -1,4 +1,4 @@
-NAME ?= LockDown
+NAME ?= KRATOS
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
@@ -25,5 +25,4 @@ clean:
 	@rm -vf modules/vendor/lib/modules/*.ko
 	@rm -vf modules/vendor/lib/modules/pronto/*.ko
 	@echo "Done."
-
 
